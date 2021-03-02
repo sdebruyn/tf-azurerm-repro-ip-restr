@@ -23,6 +23,8 @@ Output of `terraform plan -var subs=4 -out=plan && terraform show -json plan`
 }
 ```
 
+The properties `subnet_id` and `virtual_network_subnet_id` should be empty here.
+
 ## Error message
 
 ```
